@@ -269,7 +269,7 @@ Partial Class Calculator
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
-        ClientSize = New Size(477, 528)
+        ClientSize = New Size(661, 528)
         Controls.Add(Button18)
         Controls.Add(TextBox2)
         Controls.Add(Button17)

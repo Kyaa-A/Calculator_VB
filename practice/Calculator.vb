@@ -1,4 +1,5 @@
 ﻿Public Class Calculator
+    'test
     Dim firstOperand As Double
     Dim secondOperand As Double
     Dim [operator] As String
