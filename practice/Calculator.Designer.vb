@@ -42,13 +42,19 @@ Partial Class Calculator
         Button17 = New Button()
         TextBox2 = New TextBox()
         Button18 = New Button()
+        Button19 = New Button()
+        Button20 = New Button()
+        Button21 = New Button()
+        Button22 = New Button()
+        Button23 = New Button()
+        Button24 = New Button()
         SuspendLayout()
         ' 
         ' Button1
         ' 
         Button1.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button1.Location = New Point(29, 180)
+        Button1.Location = New Point(220, 185)
         Button1.Name = "Button1"
         Button1.Size = New Size(79, 67)
         Button1.TabIndex = 0
@@ -59,7 +65,7 @@ Partial Class Calculator
         ' 
         Button2.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button2.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button2.Location = New Point(114, 180)
+        Button2.Location = New Point(305, 185)
         Button2.Name = "Button2"
         Button2.Size = New Size(79, 67)
         Button2.TabIndex = 1
@@ -70,7 +76,7 @@ Partial Class Calculator
         ' 
         Button3.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button3.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button3.Location = New Point(199, 180)
+        Button3.Location = New Point(390, 185)
         Button3.Name = "Button3"
         Button3.Size = New Size(79, 67)
         Button3.TabIndex = 2
@@ -81,7 +87,7 @@ Partial Class Calculator
         ' 
         Button4.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button4.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button4.Location = New Point(369, 264)
+        Button4.Location = New Point(560, 269)
         Button4.Name = "Button4"
         Button4.Size = New Size(79, 67)
         Button4.TabIndex = 3
@@ -92,7 +98,7 @@ Partial Class Calculator
         ' 
         Button5.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button5.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button5.Location = New Point(29, 264)
+        Button5.Location = New Point(220, 269)
         Button5.Name = "Button5"
         Button5.Size = New Size(79, 67)
         Button5.TabIndex = 4
@@ -103,7 +109,7 @@ Partial Class Calculator
         ' 
         Button6.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button6.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button6.Location = New Point(114, 264)
+        Button6.Location = New Point(305, 269)
         Button6.Name = "Button6"
         Button6.Size = New Size(79, 67)
         Button6.TabIndex = 5
@@ -114,7 +120,7 @@ Partial Class Calculator
         ' 
         Button7.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button7.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button7.Location = New Point(199, 264)
+        Button7.Location = New Point(390, 269)
         Button7.Name = "Button7"
         Button7.Size = New Size(79, 67)
         Button7.TabIndex = 6
@@ -125,7 +131,7 @@ Partial Class Calculator
         ' 
         Button8.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button8.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button8.Location = New Point(283, 264)
+        Button8.Location = New Point(474, 269)
         Button8.Name = "Button8"
         Button8.Size = New Size(79, 67)
         Button8.TabIndex = 7
@@ -136,7 +142,7 @@ Partial Class Calculator
         ' 
         Button9.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button9.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button9.Location = New Point(29, 347)
+        Button9.Location = New Point(220, 352)
         Button9.Name = "Button9"
         Button9.Size = New Size(79, 67)
         Button9.TabIndex = 8
@@ -147,7 +153,7 @@ Partial Class Calculator
         ' 
         Button10.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button10.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button10.Location = New Point(114, 347)
+        Button10.Location = New Point(305, 352)
         Button10.Name = "Button10"
         Button10.Size = New Size(79, 67)
         Button10.TabIndex = 9
@@ -158,7 +164,7 @@ Partial Class Calculator
         ' 
         Button11.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button11.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button11.Location = New Point(199, 347)
+        Button11.Location = New Point(390, 352)
         Button11.Name = "Button11"
         Button11.Size = New Size(79, 67)
         Button11.TabIndex = 10
@@ -169,7 +175,7 @@ Partial Class Calculator
         ' 
         Button12.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button12.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button12.Location = New Point(283, 347)
+        Button12.Location = New Point(474, 352)
         Button12.Name = "Button12"
         Button12.Size = New Size(79, 67)
         Button12.TabIndex = 11
@@ -180,7 +186,7 @@ Partial Class Calculator
         ' 
         Button13.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button13.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button13.Location = New Point(29, 431)
+        Button13.Location = New Point(220, 436)
         Button13.Name = "Button13"
         Button13.Size = New Size(79, 67)
         Button13.TabIndex = 12
@@ -191,7 +197,7 @@ Partial Class Calculator
         ' 
         Button14.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button14.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button14.Location = New Point(114, 431)
+        Button14.Location = New Point(305, 436)
         Button14.Name = "Button14"
         Button14.Size = New Size(79, 67)
         Button14.TabIndex = 13
@@ -203,7 +209,7 @@ Partial Class Calculator
         Button15.BackColor = Color.Red
         Button15.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button15.ForeColor = Color.White
-        Button15.Location = New Point(283, 431)
+        Button15.Location = New Point(474, 436)
         Button15.Name = "Button15"
         Button15.Size = New Size(165, 67)
         Button15.TabIndex = 14
@@ -213,7 +219,7 @@ Partial Class Calculator
         ' TextBox1
         ' 
         TextBox1.Font = New Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(29, 76)
+        TextBox1.Location = New Point(220, 81)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(419, 81)
@@ -224,7 +230,7 @@ Partial Class Calculator
         ' 
         Button16.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
         Button16.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button16.Location = New Point(369, 347)
+        Button16.Location = New Point(560, 352)
         Button16.Name = "Button16"
         Button16.Size = New Size(79, 67)
         Button16.TabIndex = 16
@@ -236,7 +242,7 @@ Partial Class Calculator
         Button17.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
         Button17.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button17.ForeColor = Color.White
-        Button17.Location = New Point(283, 180)
+        Button17.Location = New Point(474, 185)
         Button17.Name = "Button17"
         Button17.RightToLeft = RightToLeft.No
         Button17.Size = New Size(165, 67)
@@ -247,7 +253,7 @@ Partial Class Calculator
         ' TextBox2
         ' 
         TextBox2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(29, 23)
+        TextBox2.Location = New Point(220, 28)
         TextBox2.Multiline = True
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(419, 35)
@@ -256,7 +262,7 @@ Partial Class Calculator
         ' 
         ' Button18
         ' 
-        Button18.Location = New Point(202, 431)
+        Button18.Location = New Point(393, 436)
         Button18.Margin = New Padding(3, 4, 3, 4)
         Button18.Name = "Button18"
         Button18.Size = New Size(74, 67)
@@ -264,12 +270,90 @@ Partial Class Calculator
         Button18.Text = "🍵 Buy  Coffee"
         Button18.UseVisualStyleBackColor = True
         ' 
+        ' Button19
+        ' 
+        Button19.BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
+        Button19.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button19.ForeColor = SystemColors.ControlLightLight
+        Button19.Location = New Point(25, 28)
+        Button19.Name = "Button19"
+        Button19.Size = New Size(174, 60)
+        Button19.TabIndex = 20
+        Button19.Text = "Basic Calculator"
+        Button19.UseVisualStyleBackColor = False
+        ' 
+        ' Button20
+        ' 
+        Button20.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button20.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button20.ForeColor = SystemColors.ControlLightLight
+        Button20.Location = New Point(25, 124)
+        Button20.Name = "Button20"
+        Button20.Size = New Size(174, 60)
+        Button20.TabIndex = 21
+        Button20.Text = "Rectangle"
+        Button20.UseVisualStyleBackColor = False
+        ' 
+        ' Button21
+        ' 
+        Button21.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button21.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button21.ForeColor = SystemColors.ControlLightLight
+        Button21.Location = New Point(25, 206)
+        Button21.Name = "Button21"
+        Button21.Size = New Size(174, 59)
+        Button21.TabIndex = 22
+        Button21.Text = "Triangle"
+        Button21.UseVisualStyleBackColor = False
+        ' 
+        ' Button22
+        ' 
+        Button22.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button22.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button22.ForeColor = SystemColors.ControlLightLight
+        Button22.Location = New Point(25, 289)
+        Button22.Name = "Button22"
+        Button22.Size = New Size(174, 59)
+        Button22.TabIndex = 23
+        Button22.Text = "Circle"
+        Button22.UseVisualStyleBackColor = False
+        ' 
+        ' Button23
+        ' 
+        Button23.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button23.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button23.ForeColor = SystemColors.ControlLightLight
+        Button23.Location = New Point(25, 371)
+        Button23.Name = "Button23"
+        Button23.Size = New Size(174, 57)
+        Button23.TabIndex = 24
+        Button23.Text = "Square"
+        Button23.UseVisualStyleBackColor = False
+        ' 
+        ' Button24
+        ' 
+        Button24.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button24.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button24.ForeColor = SystemColors.ControlLightLight
+        Button24.Location = New Point(25, 446)
+        Button24.Name = "Button24"
+        Button24.Size = New Size(174, 57)
+        Button24.TabIndex = 25
+        Button24.Text = "Trapezoid"
+        Button24.UseVisualStyleBackColor = False
+        ' 
         ' Calculator
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
         ClientSize = New Size(661, 528)
+        Controls.Add(Button24)
+        Controls.Add(Button23)
+        Controls.Add(Button22)
+        Controls.Add(Button21)
+        Controls.Add(Button20)
+        Controls.Add(Button19)
         Controls.Add(Button18)
         Controls.Add(TextBox2)
         Controls.Add(Button17)
@@ -291,6 +375,7 @@ Partial Class Calculator
         Controls.Add(Button2)
         Controls.Add(Button1)
         Name = "Calculator"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
@@ -316,5 +401,11 @@ Partial Class Calculator
     Friend WithEvents Button17 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button21 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Button23 As Button
+    Friend WithEvents Button24 As Button
 
 End Class
