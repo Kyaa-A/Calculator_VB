@@ -22,18 +22,22 @@ Partial Class Circle
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Circle))
         Button24 = New Button()
         Button23 = New Button()
         Button22 = New Button()
         Button21 = New Button()
         Button20 = New Button()
         Button19 = New Button()
-        Panel1 = New Panel()
         Label1 = New Label()
         Input = New TextBox()
         Label2 = New Label()
         Output = New Label()
         Button1 = New Button()
+        Panel2 = New Panel()
+        PictureBox1 = New PictureBox()
+        Panel2.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Button24
@@ -108,18 +112,12 @@ Partial Class Circle
         Button19.Text = "Basic Calculator"
         Button19.UseVisualStyleBackColor = False
         ' 
-        ' Panel1
-        ' 
-        Panel1.Location = New Point(337, 85)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(193, 155)
-        Panel1.TabIndex = 32
-        ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(297, 281)
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(25, 29)
         Label1.Name = "Label1"
         Label1.Size = New Size(103, 28)
         Label1.TabIndex = 33
@@ -128,7 +126,7 @@ Partial Class Circle
         ' Input
         ' 
         Input.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Input.Location = New Point(406, 281)
+        Input.Location = New Point(134, 29)
         Input.Multiline = True
         Input.Name = "Input"
         Input.Size = New Size(156, 33)
@@ -138,7 +136,8 @@ Partial Class Circle
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(318, 317)
+        Label2.ForeColor = Color.White
+        Label2.Location = New Point(46, 65)
         Label2.Name = "Label2"
         Label2.Size = New Size(82, 28)
         Label2.TabIndex = 35
@@ -148,43 +147,71 @@ Partial Class Circle
         ' 
         Output.AutoSize = True
         Output.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Output.Location = New Point(406, 317)
+        Output.ForeColor = Color.White
+        Output.Location = New Point(134, 65)
         Output.Name = "Output"
-        Output.Size = New Size(127, 28)
+        Output.Size = New Size(0, 28)
         Output.TabIndex = 36
-        Output.Text = "answer here"
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(375, 371)
+        Button1.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
+        Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
+        Button1.Location = New Point(359, 402)
         Button1.Name = "Button1"
-        Button1.Size = New Size(94, 29)
+        Button1.Size = New Size(145, 46)
         Button1.TabIndex = 37
         Button1.Text = "Calculate"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Panel2.BorderStyle = BorderStyle.FixedSingle
+        Panel2.Controls.Add(Input)
+        Panel2.Controls.Add(Label1)
+        Panel2.Controls.Add(Output)
+        Panel2.Controls.Add(Label2)
+        Panel2.Location = New Point(280, 259)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(308, 125)
+        Panel2.TabIndex = 38
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox1.BorderStyle = BorderStyle.FixedSingle
+        PictureBox1.Location = New Point(347, 63)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(181, 175)
+        PictureBox1.TabIndex = 39
+        PictureBox1.TabStop = False
         ' 
         ' Circle
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
         ClientSize = New Size(661, 528)
+        Controls.Add(PictureBox1)
+        Controls.Add(Panel2)
         Controls.Add(Button1)
-        Controls.Add(Output)
-        Controls.Add(Label2)
-        Controls.Add(Input)
-        Controls.Add(Label1)
-        Controls.Add(Panel1)
         Controls.Add(Button24)
         Controls.Add(Button23)
         Controls.Add(Button22)
         Controls.Add(Button21)
         Controls.Add(Button20)
         Controls.Add(Button19)
+        FormBorderStyle = FormBorderStyle.SizableToolWindow
         Name = "Circle"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Circle"
+        Panel2.ResumeLayout(False)
+        Panel2.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Friend WithEvents Button24 As Button
@@ -193,10 +220,11 @@ Partial Class Circle
     Friend WithEvents Button21 As Button
     Friend WithEvents Button20 As Button
     Friend WithEvents Button19 As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Input As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Output As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

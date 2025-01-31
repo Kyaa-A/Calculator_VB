@@ -22,7 +22,7 @@ Partial Class Trapezoid
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        TextBox1 = New TextBox()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Trapezoid))
         Button24 = New Button()
         Button23 = New Button()
         Button22 = New Button()
@@ -30,15 +30,20 @@ Partial Class Trapezoid
         Button20 = New Button()
         Button19 = New Button()
         HelpProvider1 = New HelpProvider()
+        Label4 = New Label()
+        TextBox2 = New TextBox()
+        Label3 = New Label()
+        Button1 = New Button()
+        TextBox1 = New TextBox()
+        Label2 = New Label()
+        Label1 = New Label()
+        TextBox3 = New TextBox()
+        Label5 = New Label()
+        Panel1 = New Panel()
+        PictureBox1 = New PictureBox()
+        Panel1.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(268, 251)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 27)
-        TextBox1.TabIndex = 1
-        TextBox1.Text = "tRAPEZOID"
         ' 
         ' Button24
         ' 
@@ -112,26 +117,150 @@ Partial Class Trapezoid
         Button19.Text = "Basic Calculator"
         Button19.UseVisualStyleBackColor = False
         ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label4.ForeColor = Color.White
+        Label4.Location = New Point(158, 144)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(0, 25)
+        Label4.TabIndex = 51
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        TextBox2.Location = New Point(158, 57)
+        TextBox2.Margin = New Padding(3, 4, 3, 4)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(114, 32)
+        TextBox2.TabIndex = 50
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label3.ForeColor = Color.White
+        Label3.Location = New Point(61, 145)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(71, 25)
+        Label3.TabIndex = 49
+        Label3.Text = "Result:"
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.FromArgb(CByte(228), CByte(203), CByte(195))
+        Button1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button1.ForeColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
+        Button1.Location = New Point(351, 446)
+        Button1.Margin = New Padding(3, 4, 3, 4)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(145, 46)
+        Button1.TabIndex = 48
+        Button1.Text = "Calculate"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        TextBox1.Location = New Point(158, 19)
+        TextBox1.Margin = New Padding(3, 4, 3, 4)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(114, 32)
+        TextBox1.TabIndex = 47
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label2.ForeColor = Color.White
+        Label2.Location = New Point(33, 65)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(107, 25)
+        Label2.TabIndex = 46
+        Label2.Text = "Base 2 (b₂)"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(33, 23)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(106, 25)
+        Label1.TabIndex = 45
+        Label1.Text = "Base 1 (b₁)"
+        ' 
+        ' TextBox3
+        ' 
+        TextBox3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        TextBox3.Location = New Point(158, 97)
+        TextBox3.Margin = New Padding(3, 4, 3, 4)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(114, 32)
+        TextBox3.TabIndex = 53
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label5.ForeColor = Color.White
+        Label5.Location = New Point(38, 104)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(102, 25)
+        Label5.TabIndex = 52
+        Label5.Text = "Height (h)"
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Panel1.Controls.Add(Label1)
+        Panel1.Controls.Add(TextBox3)
+        Panel1.Controls.Add(Label2)
+        Panel1.Controls.Add(Label5)
+        Panel1.Controls.Add(TextBox1)
+        Panel1.Controls.Add(Label4)
+        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(TextBox2)
+        Panel1.Location = New Point(276, 239)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(308, 189)
+        Panel1.TabIndex = 54
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox1.BorderStyle = BorderStyle.FixedSingle
+        PictureBox1.Location = New Point(344, 44)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(181, 175)
+        PictureBox1.TabIndex = 55
+        PictureBox1.TabStop = False
+        ' 
         ' Trapezoid
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
         ClientSize = New Size(661, 528)
+        Controls.Add(PictureBox1)
+        Controls.Add(Panel1)
+        Controls.Add(Button1)
         Controls.Add(Button24)
         Controls.Add(Button23)
         Controls.Add(Button22)
         Controls.Add(Button21)
         Controls.Add(Button20)
         Controls.Add(Button19)
-        Controls.Add(TextBox1)
         Name = "Trapezoid"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Trapezoid"
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
-
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button24 As Button
     Friend WithEvents Button23 As Button
     Friend WithEvents Button22 As Button
@@ -139,4 +268,15 @@ Partial Class Trapezoid
     Friend WithEvents Button20 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents HelpProvider1 As HelpProvider
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

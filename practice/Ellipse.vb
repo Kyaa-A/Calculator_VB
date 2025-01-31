@@ -65,14 +65,32 @@
                 Dim area As Double = Math.PI * a * b
 
                 ' Display the result in Label4
-                Label4.Text = "Area: " & area.ToString("F2") ' Format to 2 decimal places
+                Label4.Text = area.ToString("F2") ' Format to 2 decimal places
             Else
                 ' Handle non-positive input
-                Label4.Text = "Semi-major and semi-minor axes must be positive numbers."
+                Label4.Text = "Must be positive numbers."
             End If
         Else
             ' Handle invalid input
-            Label4.Text = "Invalid input. Please enter numeric values."
+            Label4.Text = "Invalid input"
         End If
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Ellipse_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+
 End Class
