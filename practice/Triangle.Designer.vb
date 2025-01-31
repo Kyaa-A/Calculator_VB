@@ -60,7 +60,7 @@ Partial Class Triangle
         Button23.Name = "Button23"
         Button23.Size = New Size(174, 57)
         Button23.TabIndex = 30
-        Button23.Text = "Square"
+        Button23.Text = "Ellipse"
         Button23.UseVisualStyleBackColor = False
         ' 
         ' Button22

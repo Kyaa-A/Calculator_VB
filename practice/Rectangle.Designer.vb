@@ -22,22 +22,20 @@ Partial Class Rectangle
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        TextBox1 = New TextBox()
         Button24 = New Button()
         Button23 = New Button()
         Button22 = New Button()
         Button21 = New Button()
         Button20 = New Button()
         Button19 = New Button()
+        Label1 = New Label()
+        Label2 = New Label()
+        TextBox1 = New TextBox()
+        Button1 = New Button()
+        Label3 = New Label()
+        TextBox2 = New TextBox()
+        Label4 = New Label()
         SuspendLayout()
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(268, 251)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 27)
-        TextBox1.TabIndex = 1
-        TextBox1.Text = "RECTANGLE"
         ' 
         ' Button24
         ' 
@@ -60,12 +58,12 @@ Partial Class Rectangle
         Button23.Name = "Button23"
         Button23.Size = New Size(174, 57)
         Button23.TabIndex = 36
-        Button23.Text = "Square"
+        Button23.Text = "Ellipse"
         Button23.UseVisualStyleBackColor = False
         ' 
         ' Button22
         ' 
-        Button22.BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
+        Button22.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
         Button22.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button22.ForeColor = SystemColors.ControlLightLight
         Button22.Location = New Point(27, 291)
@@ -89,10 +87,10 @@ Partial Class Rectangle
         ' 
         ' Button20
         ' 
-        Button20.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
+        Button20.BackColor = Color.FromArgb(CByte(55), CByte(63), CByte(93))
         Button20.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button20.ForeColor = SystemColors.ControlLightLight
-        Button20.Location = New Point(27, 126)
+        Button20.Location = New Point(27, 125)
         Button20.Name = "Button20"
         Button20.Size = New Size(174, 60)
         Button20.TabIndex = 33
@@ -104,37 +102,116 @@ Partial Class Rectangle
         Button19.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
         Button19.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button19.ForeColor = SystemColors.ControlLightLight
-        Button19.Location = New Point(27, 30)
+        Button19.Location = New Point(27, 29)
         Button19.Name = "Button19"
         Button19.Size = New Size(174, 60)
         Button19.TabIndex = 32
         Button19.Text = "Basic Calculator"
         Button19.UseVisualStyleBackColor = False
         ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label1.Location = New Point(300, 240)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(98, 25)
+        Label1.TabIndex = 38
+        Label1.Text = "Length (l)"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label2.Location = New Point(299, 281)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(100, 25)
+        Label2.TabIndex = 39
+        Label2.Text = "Width (w)"
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        TextBox1.Location = New Point(404, 237)
+        TextBox1.Margin = New Padding(3, 4, 3, 4)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(114, 32)
+        TextBox1.TabIndex = 40
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(351, 368)
+        Button1.Margin = New Padding(3, 4, 3, 4)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(86, 31)
+        Button1.TabIndex = 41
+        Button1.Text = "Calculate"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label3.Location = New Point(319, 323)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(71, 25)
+        Label3.TabIndex = 42
+        Label3.Text = "Result:"
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        TextBox2.Location = New Point(404, 275)
+        TextBox2.Margin = New Padding(3, 4, 3, 4)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(114, 32)
+        TextBox2.TabIndex = 43
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold)
+        Label4.Location = New Point(404, 321)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(116, 25)
+        Label4.TabIndex = 44
+        Label4.Text = "this is result"
+        ' 
         ' Rectangle
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(661, 528)
+        Controls.Add(Label4)
+        Controls.Add(TextBox2)
+        Controls.Add(Label3)
+        Controls.Add(Button1)
+        Controls.Add(TextBox1)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
         Controls.Add(Button24)
         Controls.Add(Button23)
         Controls.Add(Button22)
         Controls.Add(Button21)
         Controls.Add(Button20)
         Controls.Add(Button19)
-        Controls.Add(TextBox1)
         Name = "Rectangle"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Rectangle"
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button24 As Button
     Friend WithEvents Button23 As Button
     Friend WithEvents Button22 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button20 As Button
     Friend WithEvents Button19 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label4 As Label
 End Class

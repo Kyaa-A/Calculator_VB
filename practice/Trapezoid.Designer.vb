@@ -29,6 +29,7 @@ Partial Class Trapezoid
         Button21 = New Button()
         Button20 = New Button()
         Button19 = New Button()
+        HelpProvider1 = New HelpProvider()
         SuspendLayout()
         ' 
         ' TextBox1
@@ -60,7 +61,7 @@ Partial Class Trapezoid
         Button23.Name = "Button23"
         Button23.Size = New Size(174, 57)
         Button23.TabIndex = 30
-        Button23.Text = "Square"
+        Button23.Text = "Ellipse"
         Button23.UseVisualStyleBackColor = False
         ' 
         ' Button22
@@ -137,4 +138,5 @@ Partial Class Trapezoid
     Friend WithEvents Button21 As Button
     Friend WithEvents Button20 As Button
     Friend WithEvents Button19 As Button
+    Friend WithEvents HelpProvider1 As HelpProvider
 End Class

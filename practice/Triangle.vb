@@ -19,7 +19,7 @@
 
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         ' Open Square Window Form
-        Dim squareForm As New Square()
+        Dim squareForm As New Ellipse()
         squareForm.Show()
         Me.Hide() ' Hide the current form instead of closing it
     End Sub

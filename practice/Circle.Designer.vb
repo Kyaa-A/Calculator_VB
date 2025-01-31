@@ -41,7 +41,7 @@ Partial Class Circle
         Button24.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
         Button24.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button24.ForeColor = SystemColors.ControlLightLight
-        Button24.Location = New Point(25, 446)
+        Button24.Location = New Point(25, 445)
         Button24.Name = "Button24"
         Button24.Size = New Size(174, 57)
         Button24.TabIndex = 31
@@ -57,7 +57,7 @@ Partial Class Circle
         Button23.Name = "Button23"
         Button23.Size = New Size(174, 57)
         Button23.TabIndex = 30
-        Button23.Text = "Square"
+        Button23.Text = "Ellipse"
         Button23.UseVisualStyleBackColor = False
         ' 
         ' Button22
@@ -77,7 +77,7 @@ Partial Class Circle
         Button21.BackColor = Color.FromArgb(CByte(100), CByte(116), CByte(154))
         Button21.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Button21.ForeColor = SystemColors.ControlLightLight
-        Button21.Location = New Point(25, 206)
+        Button21.Location = New Point(25, 205)
         Button21.Name = "Button21"
         Button21.Size = New Size(174, 59)
         Button21.TabIndex = 28
@@ -131,14 +131,14 @@ Partial Class Circle
         Input.Location = New Point(406, 281)
         Input.Multiline = True
         Input.Name = "Input"
-        Input.Size = New Size(156, 34)
+        Input.Size = New Size(156, 33)
         Input.TabIndex = 34
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(318, 318)
+        Label2.Location = New Point(318, 317)
         Label2.Name = "Label2"
         Label2.Size = New Size(82, 28)
         Label2.TabIndex = 35
@@ -148,14 +148,15 @@ Partial Class Circle
         ' 
         Output.AutoSize = True
         Output.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Output.Location = New Point(406, 318)
+        Output.Location = New Point(406, 317)
         Output.Name = "Output"
-        Output.Size = New Size(0, 28)
+        Output.Size = New Size(127, 28)
         Output.TabIndex = 36
+        Output.Text = "answer here"
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(383, 377)
+        Button1.Location = New Point(375, 371)
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 37

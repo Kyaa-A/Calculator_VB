@@ -36,7 +36,7 @@
 
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         ' Open Square Window Form
-        Dim squareForm As New Square()
+        Dim squareForm As New Ellipse()
         squareForm.Show()
         Me.Hide() ' Hide the current form instead of closing it
     End Sub
@@ -66,11 +66,15 @@
             Output.Text = area.ToString("F2") ' Display with 2 decimal places
         Catch ex As Exception
             ' If there is an error (e.g., invalid input), show an error message
-            Output.Text = "Invalid input. Please enter a valid number."
+            Output.Text = "Invalid input"
         End Try
     End Sub
 
     Private Sub Output_Click(sender As Object, e As EventArgs) Handles Output.Click
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 End Class
