@@ -140,7 +140,7 @@
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
         Try
             ' Use ProcessStartInfo to open the URL in the default browser
-            Dim psi As New ProcessStartInfo("https://github.com/Kyaa-A")
+            Dim psi As New ProcessStartInfo("https://github.com/Kyaa-A/Calculator_VB")
             psi.UseShellExecute = True
             Process.Start(psi)
         Catch ex As Exception
